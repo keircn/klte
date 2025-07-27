@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/theme-provider";
+import { ThemeToggle } from "~/components/theme-toggle";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <ThemeToggle />
           </ThemeProvider>
         </body>
       </html>
