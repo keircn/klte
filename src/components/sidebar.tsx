@@ -8,14 +8,14 @@ interface SidebarProps {
   }>;
 }
 
-export function Sidebar({ 
-  title = "Sidebar-san", 
+export function Sidebar({
+  title = "Sidebar-san",
   links = [
     { href: "#", label: "hi" },
     { href: "#", label: "hi 2" },
     { href: "#", label: "hi 3" },
-    { href: "#", label: "hi 4" }
-  ]
+    { href: "#", label: "hi 4" },
+  ],
 }: SidebarProps) {
   return (
     <div className="flex flex-col max-w-64 w-full border border-border p-2 rounded-xl">

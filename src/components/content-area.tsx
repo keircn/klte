@@ -3,9 +3,9 @@ interface ContentAreaProps {
   subtitle?: string;
 }
 
-export function ContentArea({ 
-  title = "Content-kun", 
-  subtitle = "chotto matte" 
+export function ContentArea({
+  title = "Content-kun",
+  subtitle = "chotto matte",
 }: ContentAreaProps) {
   return (
     <div className="flex flex-col items-center justify-center p-2 py-4 gap-y-4 max-w-full w-full">
